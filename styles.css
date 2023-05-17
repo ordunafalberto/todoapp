@@ -1,0 +1,80 @@
+/* Styles for the to-do list container */
+#todoApp {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+/* Styles for the to-do list heading */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Styles for the input fields */
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Styles for the "Add Task" button */
+#addButton {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Styles for the task list */
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styles for the task items */
+#taskList li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the task checkboxes */
+#taskList li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Styles for completed tasks */
+#taskList li.completed {
+  background-color: #f5f5f5;
+  text-decoration: line-through;
+}
+
+/* Styles for the "Sort" button */
+#sortButton {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+}
